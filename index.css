@@ -1,5 +1,7 @@
-h1
-ul{
+.header{
   font-family:League-Gothic;
-  color:#929aa8;
+}
+.navbar{
+  font-family:League-Gothic;
+  background-color:#929aa8;
 }

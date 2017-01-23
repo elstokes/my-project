@@ -18,9 +18,7 @@ font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   text-decoration:none;
   color:#000000;
 list-style:none;
-}
-#navbar > li {
-		float:left;
+float:left;
 }
 #navbar > ul {
   width: 41.64em;

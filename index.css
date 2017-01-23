@@ -1,7 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 .Header{
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   text-align:center;
@@ -9,7 +5,6 @@
 nav{	
 width:100%;
 position: absolute;
-margin-top: 50px;
 font-family:Futura, "Trebuchet MS", Arial, sans-serif;
 	display:inline;
 }
@@ -20,9 +15,6 @@ font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   color:#000000;
 list-style:none;
 position: fixed;
-	top:10px;
-	left:50%;
-	margin-left:-254px;
 }
 #navbar > ul {
   width: 41.64em;

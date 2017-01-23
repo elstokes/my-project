@@ -11,6 +11,7 @@ width:100%;
 position: absolute;
 margin-top: 50px;
 font-family:Futura, "Trebuchet MS", Arial, sans-serif;
+	display:inline;
 }
 #navbar{
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
@@ -22,7 +23,6 @@ position: fixed;
 	top:10px;
 	left:50%;
 	margin-left:-254px;
-	display:inline;
 }
 #navbar > ul {
   width: 41.64em;

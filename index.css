@@ -1,6 +1,28 @@
+html{
+  background-color:#202a3a
+}
 .Header{
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   text-align:center;
+  border-bottom: 2px solid #FF6600;
+  color:#f7f8f9;
+}
+.item{
+  font-family:Futura, "Trebuchet MS", Arial, sans-serif;
+  text-align:center;
+  border-bottom: 2px solid #FF6600;
+  color:#f7f8f9;  
+}
+.item a:hover{
+  background-color: #707070;
+        cursor: pointer;
+		    color:#fff;
+		    border-top: 2px solid #FF6600;
+		-webkit-transition: background-color 0.5s ease-in;
+		-moz-transition: background-color 0.5s;
+		-o-transition: background-color 0.5s;
+		-ms-transition: background-color 0.5s;
+
 }
 .nav{	
 width:100%;
@@ -8,13 +30,17 @@ font-family:Futura, "Trebuchet MS", Arial, sans-serif;
 }
 #navbar{
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
-  background-color:#929aa8;
+  background-color:#202a3a;
   text-decoration:none;
-  color:#000000;
-list-style:none;
+  color:#f7f8f9;
+}
+nav{
+  list-style-type: none;
 }
 li{
   display:inline;
+  margin:80px;
+  font-size:20px;
 }
 #navbar li a:hover {
         background-color: #707070;
@@ -31,5 +57,4 @@ li{
 }
 a{
   text-decoration:none;
-  color:#000000;
-}
+  color:#f7f8f9;}

@@ -3,19 +3,28 @@ html{
 }
 .Header{
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size:30px;
   text-align:center;
   border-bottom: 2px solid #FF6600;
   color:#f7f8f9;
   width:180px;
-  margin-left:575px
+  margin-left:575px;
+  margin-top:30px
+}
+.quote{
+  font-family:Futura, "Trebuchet MS", Arial, sans-serif;
+  color:#f7f8f9;
+  font-size:25px;
+  text-align:center;
 }
 .item{
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size:20px;
   text-align:center;
   border-bottom: 2px solid #FF6600;
   color:#f7f8f9;
   width:180px;
-  margin-left:575px
+  margin-left:575px;
 }
 .item a:hover{
   background-color: #707070;

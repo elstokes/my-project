@@ -6,12 +6,16 @@ html{
   text-align:center;
   border-bottom: 2px solid #FF6600;
   color:#f7f8f9;
+  width:180px;
+  margin-left:575px
 }
 .item{
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   text-align:center;
   border-bottom: 2px solid #FF6600;
-  color:#f7f8f9;  
+  color:#f7f8f9;
+  width:180px;
+  margin-left:575px
 }
 .item a:hover{
   background-color: #707070;
@@ -22,7 +26,6 @@ html{
 		-moz-transition: background-color 0.5s;
 		-o-transition: background-color 0.5s;
 		-ms-transition: background-color 0.5s;
-
 }
 .nav{	
 width:100%;

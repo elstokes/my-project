@@ -5,7 +5,6 @@
 .nav{	
 width:100%;
 font-family:Futura, "Trebuchet MS", Arial, sans-serif;
-display:inline;
 }
 #navbar{
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
@@ -13,9 +12,6 @@ display:inline;
   text-decoration:none;
   color:#000000;
 list-style:none;
-}
-#navbar > ul {
-  width: 41.64em;
 }
 #navbar li a:hover {
         background-color: #707070;

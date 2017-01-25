@@ -3,6 +3,16 @@ html{
 }
 .Header{
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size:40px;
+  text-align:center;
+  border-bottom: 2px solid #FF6600;
+  color:#f7f8f9;
+  width:500px;
+  margin-left:430px;
+  margin-top:30px
+}
+.subhead{
+  font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   font-size:30px;
   text-align:center;
   border-bottom: 2px solid #FF6600;
@@ -21,7 +31,6 @@ html{
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   font-size:20px;
   text-align:center;
-  border-bottom: 2px solid #FF6600;
   color:#f7f8f9;
   width:180px;
   margin-left:575px;

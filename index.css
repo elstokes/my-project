@@ -1,87 +1,88 @@
 html{
-  background-color:#202a3a
-}
-.Header{
+  background-color:#202a3a; /*No JS was used*/ 
+} /*Special feature on line 41 (will add another in future)*/
+.Header{			/*Main inspiration:rush.com*/
+  color:#f7f8f9;
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   font-size:40px;
   text-align:center;
   border-bottom: 3px solid #FF6600;
-  color:#f7f8f9;
   width:400px;
   margin-left:auto;
   margin-right:auto;
   margin-top:30px
 }
-.subhead{
+.subhead{ /*Custom class: allows for smaller sections of the site to be clearly defined by a subheader smaller than the main .Header class*/
+  border-bottom: 2px solid #FF6600;
+  color:#f7f8f9;
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   font-size:30px;
   text-align:center;
-  border-bottom: 2px solid #FF6600;
-  color:#f7f8f9;
   width:180px;
   margin-left:auto;
   margin-right:auto;
   margin-top:30px;
 }
 .quote{
-  font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   color:#f7f8f9;
+  font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   font-size:25px;
   text-align:center;
 }
 .item{
+  color:#f7f8f9;
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   font-size:20px;
   text-align:center;
-  color:#f7f8f9;
   width:180px;
   margin-left:auto;
   margin-right:auto;
 }
-.item a:hover{
+.item a:hover{ /*Special feature: navbar items fade to white and get an orange top border*/
   background-color: #707070;
   cursor: pointer;
   color:#fff;
-	border-top: 2px solid #FF6600;
-	-webkit-transition: background-color 0.5s ease-in;
-	-moz-transition: background-color 0.5s;
-		-o-transition: background-color 0.5s;
-		-ms-transition: background-color 0.5s;
+  border-top: 2px solid #FF6600;
+    -webkit-transition: background-color 0.5s ease-in;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
 }
-.nav{	
-width:100%;
-font-family:Futura, "Trebuchet MS", Arial, sans-serif;
+.nav{
+  font-family:Futura, "Trebuchet MS", Arial, sans-serif;
+  width:100%;
 }
 #navbar{
-  font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   background-color:#202a3a;
-  text-decoration:none;
   color:#f7f8f9;
-  width:1000px;
+  font-family:Futura, "Trebuchet MS", Arial, sans-serif;
+  text-decoration:none;
   margin-left:auto;
   margin-right:auto;
+  width:1000px;
 }
 nav{
   list-style-type: none;
 }
 li{
   display:inline;
-  margin:80px;
   font-size:20px;
+  margin:80px;
 }
 #navbar li a:hover {
-        background-color:#707070;
-        cursor: pointer;
-		    color:#fff;
-		    border-top: 2px solid #FF6600;
-		-webkit-transition: background-color 0.5s ease-in;
-		-moz-transition: background-color 0.5s;
-		-o-transition: background-color 0.5s;
-		-ms-transition: background-color 0.5s;
+  background-color:#707070;
+  cursor: pointer;
+  color:#fff;
+  border-top: 2px solid #FF6600;
+    -webkit-transition: background-color 0.5s ease-in;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
 }
 #navbar li a:active {
-        background-color: #3B3B3B; 
+  background-color: #3B3B3B; 
 }
 a{
+  color:#f7f8f9;
   text-decoration:none;
-  color:#f7f8f9;}
+}

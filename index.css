@@ -1,7 +1,7 @@
 html{
   background-color:#202a3a; /*No JS was used*/ 
-} /*Special feature on line 41 (will add another in future)*/
-.animateme { 		/*Main inspiration:rush.com*/
+} /*Main inspiration:rush.com*/
+.animateme { /*Special feature: geometric shapes in background fade in from bottom of page and float upwards. continues to line 174. original pen @ http://codepen.io/mfritsch/pen/NAJkgz*/ 		
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -209,7 +209,7 @@ html{
   margin-left:auto;
   margin-right:auto;
 }
-.item a:hover{ /*Special feature: navbar items fade to white and get an orange top border*/
+.item a:hover{
   background-color: #707070;
   cursor: pointer;
   color:#fff;
@@ -224,7 +224,6 @@ html{
   width:100%;
 }
 #navbar{
-  background-color:#202a3a;
   color:#f7f8f9;
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   text-decoration:none;

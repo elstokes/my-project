@@ -115,7 +115,11 @@ a{
 	padding: 35px 30px;
 	box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.3);
 }
-
+.evidimg{
+	max-width: 100%;
+	height: auto;
+	border-radius: 3px;
+}
 .blog-content{
   color:#f7f8f9;
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
@@ -159,7 +163,7 @@ a{
 	text-decoration-color: currentColor;
 	cursor: pointer;
 }
-.animateme { /*Special feature: geometric shapes in background fade in from bottom of page and float upwards. continues to line 174. original pen @ http://codepen.io/mfritsch/pen/NAJkgz*/ 		
+.animateme { /////*Special feature: geometric shapes in background fade in from bottom of page and float upwards. continues to line 174. original pen @ http://codepen.io/mfritsch/pen/NAJkgz*//////////// 		
 	position: fixed;
 	top: 0px;
 	left: 0px;

@@ -163,7 +163,7 @@ a{
 	text-decoration-color: currentColor;
 	cursor: pointer;
 }
-.animateme { /////*Special feature: geometric shapes in background fade in from bottom of page and float upwards. continues to line 174. original pen @ http://codepen.io/mfritsch/pen/NAJkgz*//////////// 		
+.animateme { /*////////////////Special feature: geometric shapes in background fade in from bottom of page and float upwards. continues to line 174. original pen @ http://codepen.io/mfritsch/pen/NAJkgz///////////*/ 		
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -179,7 +179,7 @@ a{
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: -100;
 }
 .bg-bubbles li {
   position: absolute;

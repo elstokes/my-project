@@ -163,7 +163,8 @@ a{
 	text-decoration-color: currentColor;
 	cursor: pointer;
 }
-.animateme { /*////////////////Special feature: geometric shapes in background fade in from bottom of page and float upwards. continues to line 174. original pen @ http://codepen.io/mfritsch/pen/NAJkgz///////////*/ 		
+/*Background Anims*/
+.animateme { 	
 	position: fixed;
 	top: 0px;
 	left: 0px;

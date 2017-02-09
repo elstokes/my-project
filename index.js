@@ -10,7 +10,7 @@ function splitWords() {
       quote.innerHTML += " ";
     }
   }
-  quotewords = document.querySelectorAll("h2 span");
+  quotewords = document.querySelectorAll("h2");
   fadeWords(quotewords);
 }
 
@@ -35,3 +35,4 @@ function fadeWords(quotewords) {
 }
 
 splitWords();
+

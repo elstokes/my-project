@@ -1,3 +1,4 @@
+//Special Feature: All <h2> text fades in from a blur. Original pin @ https://codepen.io/dudleystorey/pen/pRLMrE//
 function splitWords() {
   let quote = document.querySelector("h2");
   quote.innerText.replace(/(<([^>]+)>)/ig, "");

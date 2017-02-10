@@ -116,7 +116,7 @@ a{
 	box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.3);
 }
 .evidimg{
-	max-height: 50%;
+	max-width: 100%;
 	height: auto;
 	border-radius: 3px;
 }

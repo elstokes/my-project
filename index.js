@@ -1,12 +1,12 @@
 //Special Feature: All <h2> text fades in from a blur. Original pin @ https://codepen.io/dudleystorey/pen/pRLMrE//
 function splitWords() {
-  let quote = document.querySelector("h2");
+  let quote = document.querySelector("h2"); //This tells the script what tag to look for in index.html; in this case, it's only <h2> tags.//
   quote.innerText.replace(/(<([^>]+)>)/ig, "");
   quotewords = quote.innerText.split(" "),
     wordCount = quotewords.length;
   quote.innerHTML = "";
   for (let i = 0; i < wordCount; i++) {
-    quote.innerHTML += "<span>" + quotewords[i] + "</span>";
+    quote.innerHTML += "<span>" + quotewords[i] + "</span>"; 
     if (i < quotewords.length - 1) {
       quote.innerHTML += " ";
     }
@@ -36,4 +36,7 @@ function fadeWords(quotewords) {
 }
 
 splitWords();
+
+//Please ask before copying my code if you're interested in using it.//
+//Remember kids, stealing code is bad unless you take it from codepen! :D //
 

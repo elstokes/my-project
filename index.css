@@ -1,6 +1,6 @@
 html{
   background-color:#202a3a;
-} /*Main inspiration:rush.com*/
+} /*Main layout inspiration:rush.com*/
 .Header{	
   color:#f7f8f9;
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
@@ -12,7 +12,7 @@ html{
   margin-right:auto;
   margin-top:30px
 }
-blockquote{
+blockquote{ /*Formatting for the Da Vinci quote that is definitely not made up.*/
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   color:#f7f8f9;
   font-size:25px;
@@ -64,6 +64,7 @@ cite {
     -o-transition: background-color 0.5s;
     -ms-transition: background-color 0.5s;
 }
+/*Navigation Bar*/
 .nav{
   font-family:Futura, "Trebuchet MS", Arial, sans-serif;
   width:100%;
@@ -163,7 +164,7 @@ a{
 	text-decoration-color: currentColor;
 	cursor: pointer;
 }
-/*Background Anims*/
+/*Background Anims. Source:http://codepen.io/mfritsch/pen/NAJkgz*/
 .animateme { 	
 	position: fixed;
 	top: 0px;
@@ -335,5 +336,6 @@ a{
   opacity:0;
   }
 }
-
+/*Please ask before copying my code if you're interested in using it.*/
+/*Remember kids, stealing code is bad unless you take it from codepen! :D */
 

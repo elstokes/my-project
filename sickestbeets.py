@@ -19,9 +19,7 @@ print "Press:\n\tq:Send secret code\n\tw:8th note\n\te:quarter note\n\tr:half no
 while True:
     print "Enter the Command:",
     
-    
-    BPM=125
-    Whole=(60/BPM)    
+       
    
     a=raw_input()   # Fetch the input from the terminal
     

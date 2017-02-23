@@ -16,7 +16,7 @@ GPIO.setup(3,GPIO.OUT)
 GPIO.setup(4,GPIO.OUT)
 
 print "Welcome to sick beet simulator 2018!"
-print "Press:\n\tq:Send secret code\n\tw:8th note\n\te:quarter note\n\tr:half note\n\t:whole note\n\tz:Exit"
+print "Press:\n\tq:Send secret code\n\tw:Master On Switch\n\ts:Master Off Switch\n\tz:Exit"
 while True:
     print "Enter the Command:",
     
@@ -41,7 +41,7 @@ while True:
    	    	
     elif a=='q':
             print "SEIZURE WARNING"
-            pygame.mixer.init()
+            pygame.mixer.init() # source: http://raspberrypi.stackexchange.com/questions/7088/playing-audio-files-with-python
             pygame.mixer.music.load("Just a Bit Crazy.mp3")
             pygame.mixer.music.play()
             
